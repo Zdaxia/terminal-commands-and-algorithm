@@ -1,4 +1,4 @@
-terminal-commands
+Terminal Commands
 =================
 
 Some useful terminal command
