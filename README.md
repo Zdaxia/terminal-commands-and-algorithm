@@ -76,6 +76,10 @@ example:
 **detach the session and run in the background.**
 
         nohup node server.js &
+        
+**change the default pw through SSH**
+
+        passwd {username}
 
 
 
