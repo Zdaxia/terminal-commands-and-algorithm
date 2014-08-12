@@ -72,6 +72,10 @@ example:
 **emacs/vi editor**
 
         emacs/vi {file}
+        
+**detach the session and run in the background.**
+
+        nohup node server.js &
 
 
 
