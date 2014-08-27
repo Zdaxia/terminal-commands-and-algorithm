@@ -80,6 +80,11 @@ example:
 **change the default pw through SSH**
 
         passwd {username}
+        
+**hide hidden files**
+
+        defaults write com.apple.finder AppleShowAllFiles -bool {true/false}
+        
 
 
 
