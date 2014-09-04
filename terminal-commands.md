@@ -85,6 +85,13 @@ example:
 
         defaults write com.apple.finder AppleShowAllFiles -bool {true/false}
         
+**start a http server**
+
+        python -m SimpleHTTPServer 3000
+  
+        
+
+
 
 
 
