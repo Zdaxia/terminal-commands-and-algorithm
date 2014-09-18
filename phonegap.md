@@ -1,10 +1,11 @@
-#Create a phonegap app
+**Create a phonegap app**
+
     phonegap create {folderName} {co.landz} {ProjectName}
 
-#Build app
+**Build app**
 
     phonegap build ios
 
-#Build a phonegap app on server 
+**Build a phonegap app on server** 
 
     phonegap serve
