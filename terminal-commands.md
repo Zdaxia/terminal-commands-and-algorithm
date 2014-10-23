@@ -81,6 +81,32 @@ example:
 
         passwd {username}
         
+**see the menue of nano **
+
+        man nano
+        
+**create account**
+
+        sudo adduser {your uname}
+        
+**give the sudo right to new user**
+
+        sudo visudo
+        # User privilege specification -----> add new user
+
+**give the user ssh right**
+
+        sudo nano /etc/ssh/sshd_config
+        #change to no to disable tunnelled clear text passwords ----> PasswordAuthentication yes
+        
+**restart server**
+
+        sudo nano /etc/ssh/sshd_config
+        
+**exit ssh**
+
+        exit
+        
 **hide hidden files**
 
         defaults write com.apple.finder AppleShowAllFiles -bool {true/false}
